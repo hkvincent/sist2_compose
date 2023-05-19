@@ -10,7 +10,7 @@ mkdir documents
 echo Made directory "documents". Move files there you want to be indexed.
 
 docker pull docker.elastic.co/elasticsearch/elasticsearch:7.14.0 
-docker pull simon987/sist2
+docker docker pull simon987/sist2:2.12.1-x64-linux
 docker-compose up -d
 echo.
 
