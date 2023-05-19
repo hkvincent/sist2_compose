@@ -29,7 +29,7 @@ services:
 
   # 3 Push index to elasticsearch
   sist2_index:
-    image: simon987/sist2
+    image: simon987/sist2:2.12.1-x64-linux
     container_name: sist2_index
     restart: "no"
     depends_on:
@@ -44,7 +44,7 @@ services:
     
   # 4 Start the web UI
   sist2_web:
-    image: simon987/sist2
+    image: simon987/sist2:2.12.1-x64-linux
     container_name: sist2_web
     restart: "no"
     depends_on:
